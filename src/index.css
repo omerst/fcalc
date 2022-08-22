@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply leading-8 font-light;
+  }
+
+  hr {
+    @apply h-0.5 border-0 bg-gray-200;
+  }
+
+  label {
+    @apply font-bold;
+  }
+
+  h6 {
+    @apply font-bold;
+  }
+
+  td,
+  tr,
+  th {
+    @apply border-2 sm:p-5 p-3 text-center;
+  }
+
+  [type="text"],
+  [type="text"]:focus {
+    @apply h-12 w-full border-2 px-4 border-gray-200 ring-transparent;
+  }
+}
